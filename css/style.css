@@ -1,0 +1,245 @@
+.contenedor{
+    display: grid;
+        /* grid-template-columns: auto auto auto; */
+        grid-template-columns: 100fr 0fr 0fr;
+        grid-template-rows: 0fr 0fr 0fr 0fr 0fr;
+        grid-template-areas: "head  head head" 
+                            "imagen imagen imagen"
+                            "buscador buscador buscador"
+                            "btn3 content content"
+                            "footer footer footer";
+        grid-gap: 0px;
+        background-color: mediumaquamarine;
+        padding: 0px;
+  }
+
+  .cabecera-color{
+    background-color: rgb(68, 132, 242);
+    height: 30px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 11px;
+  }
+
+  #deco{
+    text-decoration: none;
+  }
+  
+  .cabecera{
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 16px;
+    margin-top: 60px;
+  }
+  
+  .lista{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
+ 
+  a:hover { 
+    cursor: pointer; 
+    color: plum;
+  } 
+  
+  button:hover{
+    cursor: pointer;
+  }
+ 
+  p{
+    font-family:"arial,helvética;";
+    font-size: 15px;
+  }
+  
+
+ /* Nuevo css */
+
+ section p {
+     background-color: #222;
+     color: violet;
+     border: yellow 5px solid;
+     margin-top: 3px;
+     margin-right: 500px;
+     margin-left: 500px;
+     text-align: center;
+ }
+
+ section section p{
+
+    background-color: #222;
+    color: white;
+    border: aqua 5px solid;
+    margin-top: 6px;
+    margin-right: 480px;
+    margin-left: 480px;
+ }
+
+ section section section p{
+    background-color: #222;
+    color: green;
+    border: red 5px solid;
+    margin-top: 6px;
+    margin-right: 460px;
+    margin-left: 460px;
+
+ }
+
+ section section section section p{
+    background-color: #222;
+    color: grey;
+    border: orange 5px solid;
+    margin-top: 6px;
+    margin-right: 440px;
+    margin-left: 440px;
+ }
+
+ section section section section section p{
+    background-color: #222;
+    color: white;
+    border: pink 5px solid;
+    margin-top: 6px;
+    margin-right: 420px;
+    margin-left: 420px;
+ }
+
+ section section section section section section p {
+    background-color: #222;
+    color: violet;
+    border: yellow 5px solid;
+    margin-top: 3px;
+    margin-right: 400px;
+    margin-left: 400px;
+    text-align: center;
+}
+
+ol {
+    margin-top: 60px;
+    list-style-type: hiragana;
+    text-align: left;
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.desor{
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-right: 120px;
+    margin-bottom: 60px;
+}
+
+.pie{
+
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: gainsboro;
+    color: firebrick;
+    text-align: center;
+    position: fixed;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social{
+    position: fixed  ;
+    bottom:80px;
+    right: 10px;
+  }
+  
+.social1{
+    margin:5px;
+    height: 40px;
+    display: block;
+    float: right;
+  }
+
+
+  #images img{
+      width: 50px;
+      height: 50px;
+      padding: 15px 15px 50px 15px;
+      background-color: white;
+      border-color: green;
+      border-width: 5px;
+      border-style: solid;
+
+  }
+
+  body{
+      background:white;
+  }
+
+  h1{
+      font-size: 40px;
+      font-style: italic;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.imagen {
+  background-image: url("../img/salud.jpg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+
+}
+
+.nav > li {
+  float:left;
+}
+
+.nav li a {
+  background-color: black;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:inline-block;
+  width: 100%;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  width:100%;
+}
+
+.nav li:hover > ul {
+  display:inline-block;
+}
